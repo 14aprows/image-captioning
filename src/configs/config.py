@@ -10,6 +10,10 @@ TOKEN_FILE = TEXT_DIR / "visual.token.txt"
 TRAIN_IMAGE_FILE = TEXT_DIR / "visual.trainImages.txt"
 TEST_IMAGE_FILE = TEXT_DIR / "visual.testImages.txt"
 
+IMAGE_SIZE = (224, 224)
+IMAGE_MEAN = (0.485, 0.456, 0.406)
+IMAGE_STD = (0.229, 0.224, 0.225)
+
 PAD_TOKEN = "<pad>"
 START_TOKEN = "<start>"
 END_TOKEN = "<end>"
