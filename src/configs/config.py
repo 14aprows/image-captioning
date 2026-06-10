@@ -2,6 +2,7 @@ from pathlib import Path
 
 ROOT_DIR = Path(__file__).resolve().parents[2]
 DATA_DIR = ROOT_DIR / "visuallyimpair"
+CHECKPOINT_DIR = ROOT_DIR / "checkpoints"
 
 IMAGE_DIR = DATA_DIR / "visual_dataset"
 TEXT_DIR = DATA_DIR / "visual_text"
@@ -27,7 +28,7 @@ PIN_MEMORY = False
 VAL_RATIO = 0.2
 RANDOM_SEED = 42
 
-EPOCHS = 10
+EPOCHS = 30
 LEARNING_RATE = 1e-3
 WEIGHT_DECAY = 1e-5
 GRAD_CLIP = 5.0
